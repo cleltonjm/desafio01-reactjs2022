@@ -1,0 +1,46 @@
+header {
+    position: absolute;
+    height: 200px;
+    left: 0px;
+    right: 0px;
+    top: 4px;
+
+    background: var(--gray-700);
+}
+
+.logo {
+    position: absolute;
+    width: 126px;
+    height: 48px;
+    left: 657px;
+    top: 72px;
+}
+
+.rocketImg {
+    position: absolute;
+    width: 22px;
+    height: 36px;
+    left: calc(50% - 22px/2 - 52px);
+    top: 82px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.title {
+    position: absolute;
+    width: 92px;
+    height: 48px;
+    left: calc(50% - 92px/2 + 17px);
+    top: 72px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: var(--blue);
+
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
